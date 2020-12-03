@@ -1,0 +1,119 @@
+
+.calci{
+
+	margin-top:15%;
+	margin-left:35%;
+	padding-top: 1.5vw; padding-left: 2vw;
+	border:2px solid black;
+	width:25vw;
+	height:auto; background-color: #A8A8A8; border-radius: 10px;
+	box-shadow: 10px 10px 5px black;
+
+}
+
+#screen{
+	width:20vw;	border:2px solid black; background-color: white	;
+}
+
+.row{
+   width:100%; margin-top: 2%; margin-bottom: 2%;  margin-left: 0.2vw;
+}
+ .key{
+	margin-right: 1vw;
+	width:4.2vw; height:3vw;  font-size: 1.5vw;
+ }
+
+.screen{
+	color:black;
+}
+
+@media screen and (max-width: 375px) {
+	.calci{
+		margin-top:15%;
+		margin-left:25%;
+		padding-top: 1.5vw; padding-left: 4vw;
+		border:2px solid black;
+		width:50vw;
+		height:auto; background-color: #A8A8A8; border-radius: 10px;
+		box-shadow: 10px 10px 5px black;
+	
+	}
+
+	#screen{
+		width:40vw;	border:2px solid black; background-color: white	;
+	}
+
+	.row{
+		width:100%; margin-top: 2%; margin-bottom: 2%;  margin-left: 0.2vw;
+	 }
+	  .key{
+		 margin-right: 1vw;
+		 width:9vw; height:8vw;  font-size: 3vw;
+	  }	 
+	 .screen{
+		 color:black;
+
+	 }
+
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+	.calci{
+		margin-top:15%;
+		margin-left:25%;
+		padding-top: 1.5vw; padding-left: 4vw;
+		border:2px solid black;
+		width:50vw;
+		height:auto; background-color: #A8A8A8; border-radius: 10px;
+		box-shadow: 10px 10px 5px black;
+	
+	}
+
+	#screen{
+		width:40vw;	border:2px solid black; background-color: white	;
+	}
+
+	.row{
+		width:100%; margin-top: 2%; margin-bottom: 2%;  margin-left: 0.2vw;
+	 }
+	  .key{
+		 margin-right: 1vw;
+		 width:9vw; height:8vw;  font-size: 3vw;
+	  }	 
+	 .screen{
+		 color:black;
+
+	 }
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+	.calci{
+		margin-top:15%;
+		margin-left:25%;
+		padding-top: 1.5vw; padding-left: 4vw;
+		border:2px solid black;
+		width:50vw;
+		height:auto; background-color: #A8A8A8; border-radius: 10px;
+	
+	}
+
+	#screen{
+		width:40vw;	border:2px solid black; background-color: white	;
+	}
+
+	.row{
+		width:100%; margin-top: 2%; margin-bottom: 2%;  margin-left: 0.2vw;
+	 }
+	  .key{
+		 margin-right: 1vw;
+		 width:9vw; height:6vw;  font-size: 3vw;
+	  }	 
+	 .screen{
+		 color:black;
+
+	 }
+
+}
